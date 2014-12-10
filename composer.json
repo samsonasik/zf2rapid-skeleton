@@ -1,6 +1,6 @@
 {
 	"keywords" : [],
-	"require" : {
+    "require" : {
 		"php" : ">=5.3.23",
 		"zendframework/zendframework" : "2.3.*",
 	    "zfrapid/zf2rapid-library" : "0.*",
