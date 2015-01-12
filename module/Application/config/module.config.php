@@ -47,9 +47,11 @@ return array(
 
     'view_helpers'    => array(
         'aliases' => array(
-            'h1'             => 'zf2rapidLibH1',
-            'date'           => 'zf2rapidLibDate',
-            'flashMessenger' => 'zf2rapidLibFlashMessenger',
+            'h1'                      => 'zf2rapidLibH1',
+            'date'                    => 'zf2rapidLibDate',
+            'bootstrapFlashMessenger' => 'zf2rapidLibBootstrapFlashMessenger',
+            'bootstrapForm'           => 'zf2rapidLibBootstrapForm',
+            'bootstrapMenu'           => 'zf2rapidLibBootstrapMenu',
         ),
     ),
 
