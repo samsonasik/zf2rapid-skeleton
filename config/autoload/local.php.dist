@@ -1,0 +1,20 @@
+<?php
+/**
+ * ZF2rapid skeleton application
+ * 
+ * @package    Application
+ * @link      https://github.com/ZFrapid/zf2rapid-skeleton
+ * @copyright Copyright (c) 2014 Ralf Eggert
+ * @license   http://opensource.org/licenses/MIT The MIT License (MIT)
+ */
+
+/**
+ * Local configuration
+ *
+ * Use this file to overwrite all configuration from the global and the
+ * development or production and from all the loaded modules.
+ *
+ * @package    Application
+ */
+return array(
+);
