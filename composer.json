@@ -4,6 +4,7 @@
 		"php" : ">=5.3.23",
 		"zendframework/zendframework" : "2.3.*",
 	    "zfrapid/zf2rapid-library" : "0.*",
+        "rwoverdijk/assetmanager" : "1.*",
         "twitter/bootstrap" : "3.*",
         "fortawesome/font-awesome" : "4.*",
         "frameworks/jquery" : "1.*"

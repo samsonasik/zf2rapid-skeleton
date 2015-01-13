@@ -15,6 +15,7 @@
  */
 return array(
     'modules'                 => array(
+        'AssetManager',
         'Application',
         'ZF2rapidLib',
         'ZendDeveloperTools',
