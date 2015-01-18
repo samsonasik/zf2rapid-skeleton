@@ -4,7 +4,7 @@
  *
  * @package    Application
  * @link      https://github.com/ZFrapid/zf2rapid-skeleton
- * @copyright Copyright (c) 2014 Ralf Eggert
+ * @copyright Copyright (c) 2014 - 2015 Ralf Eggert
  * @license   http://opensource.org/licenses/MIT The MIT License (MIT)
  */
 
