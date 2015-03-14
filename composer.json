@@ -1,17 +1,21 @@
 {
-	"keywords" : [],
-    "require" : {
-		"php" : ">=5.3.23",
-		"zendframework/zendframework" : "2.3.*",
-	    "zfrapid/zf2rapid-library" : "0.*",
-        "rwoverdijk/assetmanager" : "1.*",
-        "twitter/bootstrap" : "3.*",
-        "fortawesome/font-awesome" : "4.*",
-        "frameworks/jquery" : "1.*"
-    },
-    "require-dev": {
-        "zendframework/zend-developer-tools" : "dev-master",
-        "bjyoungblood/bjy-profiler" : "dev-master",
-        "san/san-session-toolbar": "0.*"
-    }
+  "keywords": [],
+  "require": {
+    "php": ">=5.3.23",
+    "zendframework/zendframework": "2.3.*",
+    "zfrapid/zf2rapid-library": "0.*",
+    "zfrapid/zf2rapid-composer": "0.*",
+    "rwoverdijk/assetmanager": "1.*",
+    "twitter/bootstrap": "3.*",
+    "fortawesome/font-awesome": "4.*",
+    "frameworks/jquery": "1.*"
+  },
+  "require-dev": {
+    "zendframework/zend-developer-tools": "dev-master",
+    "bjyoungblood/bjy-profiler": "dev-master",
+    "san/san-session-toolbar": "0.*"
+  },
+  "scripts": {
+    "post-update-cmd": "ZF2rapidComposer\\Project::postUpdate"
+  }
 }
