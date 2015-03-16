@@ -19,6 +19,8 @@ use Zend\EventManager\EventInterface;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\BootstrapListenerInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
+use Zend\ModuleManager\Feature\InitProviderInterface;
+use Zend\ModuleManager\ModuleManagerInterface;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 use ZF2rapidLib\View\LayoutListener;
@@ -31,8 +33,23 @@ use ZF2rapidLib\View\LayoutListener;
 class Module implements
     BootstrapListenerInterface,
     ConfigProviderInterface,
-    AutoloaderProviderInterface
+    AutoloaderProviderInterface,
+    InitProviderInterface
 {
+    /**
+     * Init module
+     *
+     * Initialize module on loading
+     *
+     * @param ModuleManagerInterface $manager
+     */
+    public function init(ModuleManagerInterface $manager)
+    {
+        if (!defined('APPLICATION_MODULE_ROOT')) {
+            define('APPLICATION_MODULE_ROOT', realpath(__DIR__));
+        }
+    }
+
     /**
      * Listen to the bootstrap event
      *

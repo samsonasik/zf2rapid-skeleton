@@ -21,6 +21,7 @@ return array(
                 'options' => array(
                     'route'    => '/',
                     'defaults' => array(
+                        '__NAMESPACE__' => 'Application',
                         'controller' => 'index',
                         'action'     => 'index',
                     ),
@@ -31,7 +32,7 @@ return array(
 
     'controllers'     => array(
         'invokables' => array(
-            'index' => 'Application\Controller\IndexController',
+            'Application\\Index' => 'Application\Controller\IndexController',
         ),
     ),
 
