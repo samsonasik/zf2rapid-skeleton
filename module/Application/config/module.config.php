@@ -62,9 +62,9 @@ return array(
         'doctype'                  => 'HTML5',
         'not_found_template'       => 'error/404',
         'exception_template'       => 'error/index',
-        'template_map'             => include __DIR__ . '/../template_map.php',
+        'template_map'             => include APPLICATION_MODULE_ROOT . '/template_map.php',
         'template_path_stack'      => array(
-            __DIR__ . '/../view',
+            APPLICATION_MODULE_ROOT . '/view',
         ),
     ),
 
@@ -73,7 +73,7 @@ return array(
         'translation_file_patterns' => array(
             array(
                 'type'     => 'phpArray',
-                'base_dir' => __DIR__ . '/../language',
+                'base_dir' => APPLICATION_MODULE_ROOT . '/language',
                 'pattern'  => '%s.php',
             ),
         ),
