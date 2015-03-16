@@ -80,7 +80,7 @@ return array(
     ),
 
     'session_config'  => array(
-        'save_path' => realpath(APPLICATION_ROOT . '/data/session'),
+        'save_path' => APPLICATION_ROOT . '/data/session',
         'name'      => 'ZF2RAPID_SESSION',
     ),
 
