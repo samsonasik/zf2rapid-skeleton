@@ -6,8 +6,6 @@
  * @link       https://github.com/ZFrapid/zf2rapid-skeleton
  * @copyright  Copyright (c) 2014 - 2015 Ralf Eggert
  * @license    http://opensource.org/licenses/MIT The MIT License (MIT)
- *
- * @todo       List features and use FontAwesome Icons
  */
 
 /**
@@ -23,32 +21,46 @@ $this->h1('application_h1_index_index');
     <div class="col-md-3 col-sm-6">
         <h2>
             <i class="fa fa-question"></i>
-            <?php echo $this->translate('application_h2_index_whatever'); ?>
+            <?php echo $this->translate('application_h2_index_about'); ?>
         </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <p>
+            <?php echo $this->translate('application_message_index_about'); ?>
+        </p>
     </div>
     <div class="col-md-3 col-sm-6">
         <h2>
             <i class="fa fa-wrench"></i>
             <?php echo $this->translate('application_h2_index_features'); ?>
         </h2>
-        <p>Some basic Zend Framework 2 features are activated to help you to get started with your ZF2 application.</p>
+        <p>
+            <?php echo $this->translate(
+                'application_message_index_features'
+            ); ?>
+        </p>
         <ul class="fa-ul">
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Translations (English/German)
+                <?php echo $this->translate(
+                    'application_label_features_i18n'
+                ) ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Multi-level layout
+                <?php echo $this->translate(
+                    'application_label_features_layout'
+                ) ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Session configuration
+                <?php echo $this->translate(
+                    'application_label_features_session'
+                ) ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Navigation configuration
+                <?php echo $this->translate(
+                    'application_label_features_navigation'
+                ) ?>
             </li>
         </ul>
     </div>
@@ -57,19 +69,25 @@ $this->h1('application_h1_index_index');
             <i class="fa fa-cubes"></i>
             <?php echo $this->translate('application_h2_index_modules'); ?>
         </h2>
-        <p>Some useful Zend Framework 2 modules are installed and activated for your convenience.</p>
+        <p>
+            <?php echo $this->translate('application_message_index_modules'); ?>
+        </p>
         <ul class="fa-ul">
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Zend Developer Tools
+                <?php echo $this->translate('application_label_modules_zdt') ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                BjyProfiler
+                <?php echo $this->translate('application_label_modules_bp') ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                SanSessionToolbar
+                <?php echo $this->translate('application_label_modules_sst') ?>
+            </li>
+            <li>
+                <i class="fa-li fa fa-thumbs-up"></i>
+                <?php echo $this->translate('application_label_modules_am') ?>
             </li>
         </ul>
     </div>
@@ -78,19 +96,30 @@ $this->h1('application_h1_index_index');
             <i class="fa fa-desktop"></i>
             <?php echo $this->translate('application_h2_index_frontend'); ?>
         </h2>
-        <p>Frontend libraries are installed by Composer and symlinked to the public folder of the application.</p>
+        <p>
+            <?php echo $this->translate(
+                'application_message_index_frontend'
+            ); ?>
+        </p>
+        <p></p>
         <ul class="fa-ul">
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Bootstrap 3.x
+                <?php echo $this->translate(
+                    'application_label_frontend_bootstrap'
+                ) ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                Font Awesome 4.x
+                <?php echo $this->translate(
+                    'application_label_frontend_fontawesome'
+                ) ?>
             </li>
             <li>
                 <i class="fa-li fa fa-thumbs-up"></i>
-                jQuery 1.11.x
+                <?php echo $this->translate(
+                    'application_label_frontend_jquery'
+                ) ?>
             </li>
         </ul>
     </div>

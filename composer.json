@@ -2,7 +2,7 @@
   "keywords": [],
   "require": {
     "php": ">=5.3.23",
-    "zendframework/zendframework": "2.3.*",
+    "zendframework/zendframework": "2.*",
     "zfrapid/zf2rapid-library": "0.*",
     "zfrapid/zf2rapid-composer": "0.*",
     "rwoverdijk/assetmanager": "1.*",

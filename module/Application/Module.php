@@ -6,8 +6,6 @@
  * @link       https://github.com/ZFrapid/zf2rapid-skeleton
  * @copyright  Copyright (c) 2014 - 2015 Ralf Eggert
  * @license    http://opensource.org/licenses/MIT The MIT License (MIT)
- *
- * @todo       Texts in module need to be translated
  */
 
 /**
