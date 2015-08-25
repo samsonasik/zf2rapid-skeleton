@@ -63,10 +63,10 @@ return array(
     'application_label_frontend_jquery'              => 'jQuery 1.11.x',
     'application_label_zfwebsite'                    => 'Zend Framework Website',
     'application_label_zfmodules'                    => 'Zend Framework 2 Modules',
-    'application_label_zfpackages'                   => 'Zend Framework 2 Packages',
+    'application_label_zfgithub'                     => 'Zend Framework GitHub',
     'application_label_zf2rapid'                     => 'GitHub Repository ZF2rapid',
     'application_label_zf2rapid_skeleton'            => 'GitHub Repository ZF2rapidSkeletonApplication',
-    'application_label_ralfeggert_googleplus'        => 'Google+ page Ralf Eggert',
+    'application_label_ralfeggert'                   => 'Homepage Ralf Eggert (German only)',
 
     // action texts
     'application_action_homepage'                    => 'Back to homepage',

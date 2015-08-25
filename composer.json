@@ -1,8 +1,10 @@
 {
-  "keywords": [],
+  "name": "zfrapid/zf2rapid-skeleton",
+  "description": "ZF2rapid skeleton application",
+  "license": "The MIT License (MIT)",
   "require": {
-    "php": ">=5.3.23",
-    "zendframework/zendframework": "2.*",
+    "php": ">=5.5",
+    "zendframework/zendframework": "~2.5",
     "zfrapid/zf2rapid-library": "0.*",
     "zfrapid/zf2rapid-composer": "0.*",
     "rwoverdijk/assetmanager": "1.*",
@@ -12,8 +14,8 @@
   },
   "require-dev": {
     "zendframework/zend-developer-tools": "dev-master",
-    "bjyoungblood/bjy-profiler": "dev-master",
-    "san/san-session-toolbar": "0.*"
+    "bjyoungblood/bjy-profiler": "~1.0",
+    "san/san-session-toolbar": "~0.2"
   },
   "scripts": {
     "post-update-cmd": "ZF2rapidComposer\\Project::postUpdate"
