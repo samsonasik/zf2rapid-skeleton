@@ -20,9 +20,9 @@
 return array(
     'db' => array(
         'driver'  => 'pdo',
-        'dsn'     => 'mysql:dbname=zf2rapid;host=localhost;charset=utf8',
-        'user'    => 'zf2rapid',
-        'pass'    => 'zf2rapid',
+        'dsn'     => 'mysql:dbname=DATEBASE;host=localhost;charset=utf8',
+        'user'    => 'USER',
+        'pass'    => 'PASS',
     ),
     'service_manager' => array(
         'factories' => array(
