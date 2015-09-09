@@ -6,6 +6,7 @@
     "php": ">=5.5",
     "zendframework/zendframework": "~2.5",
     "zfrapid/zf2rapid-library": "0.*",
+    "zfrapid/zf2rapid-domain": "0.*",
     "zfrapid/zf2rapid-composer": "0.*",
     "rwoverdijk/assetmanager": "1.*",
     "twitter/bootstrap": "3.*",
