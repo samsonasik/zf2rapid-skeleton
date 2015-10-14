@@ -13,24 +13,24 @@
  *
  * @package    Application
  */
-return array(
-    'modules'                 => array(
+return [
+    'modules'                 => [
         'AssetManager',
         'Application',
         'ZF2rapidLib',
-    ),
-    'module_listener_options' => array(
-        'config_glob_paths'        => array(
+    ],
+    'module_listener_options' => [
+        'config_glob_paths'        => [
             'config/autoload/{,*.}{global,production,local}.php',
-        ),
-        'module_paths'             => array(
+        ],
+        'module_paths'             => [
             './module',
             './vendor',
-        ),
+        ],
         'cache_dir'                => APPLICATION_ROOT . '/data/cache',
         'config_cache_enabled'     => false,
         'config_cache_key'         => 'module_config_cache',
         'module_map_cache_enabled' => false,
         'module_map_cache_key'     => 'module_map_cache',
-    ),
-);
+    ],
+];

@@ -16,5 +16,5 @@
  *
  * @package    Application
  */
-return array(
-);
+return [
+];

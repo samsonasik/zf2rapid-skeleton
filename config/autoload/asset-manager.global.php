@@ -18,22 +18,22 @@
  *
  * @package    Application
  */
-return array(
-    'asset_manager'   => array(
-        'resolver_configs' => array(
-            'aliases' => array(
+return [
+    'asset_manager'   => [
+        'resolver_configs' => [
+            'aliases' => [
                 'assets/vendor/bootstrap/'   => APPLICATION_ROOT . '/vendor/twitter/bootstrap/dist',
                 'assets/vendor/jquery'       => APPLICATION_ROOT . '/vendor/frameworks/jquery',
                 'assets/vendor/font-awesome' => APPLICATION_ROOT . '/vendor/fortawesome/font-awesome',
-            ),
-        ),
-        'caching' => array(
-            'default' => array(
+            ],
+        ],
+        'caching' => [
+            'default' => [
                 'cache'     => 'AssetManager\\Cache\\FilePathCache',
-                'options' => array(
+                'options' => [
                     'dir' => 'public',
-                ),
-            ),
-        ),
-    ),
-);
+                ],
+            ],
+        ],
+    ],
+];

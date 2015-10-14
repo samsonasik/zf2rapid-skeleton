@@ -17,16 +17,16 @@
  *
  * @package    Application
  */
-return array(
-    'db' => array(
+return [
+    'db' => [
         'driver'  => 'pdo',
         'dsn'     => 'mysql:dbname=DATEBASE;host=localhost;charset=utf8',
         'user'    => 'USER',
         'pass'    => 'PASS',
-    ),
-    'service_manager' => array(
-        'factories' => array(
+    ],
+    'service_manager' => [
+        'factories' => [
             'Zend\Db\Adapter\Adapter' => 'ZF2rapidLib\Db\Adapter\ProfilingAdapterFactory',
-        ),
-    ),
-);
+        ],
+    ],
+];

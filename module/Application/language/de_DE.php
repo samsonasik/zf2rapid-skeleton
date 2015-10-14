@@ -13,7 +13,7 @@
  *
  * @package    Application
  */
-return array(
+return [
     // navigation texts
     'application_navigation_home'                    => 'Startseite',
 
@@ -76,4 +76,4 @@ return array(
     'application_misc_slogan'                        => 'Skeleton Application',
     'application_misc_reason'                        => 'Grund',
 
-);
+];

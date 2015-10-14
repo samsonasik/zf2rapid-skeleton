@@ -17,11 +17,11 @@
  *
  * @package    Application
  */
-return array(
-    'db' => array(
+return [
+    'db' => [
         'driver'  => 'pdo',
         'dsn'     => 'mysql:dbname=DATEBASE;host=localhost;charset=utf8',
         'user'    => 'USER',
         'pass'    => 'PASS',
-    ),
-);
+    ],
+];
