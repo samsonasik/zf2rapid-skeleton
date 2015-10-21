@@ -40,7 +40,7 @@ return [
     'application_message_index_about'                => 'Die ZF2rapid Skeleton Application ist der Einstieg, um Ihre Zend Framework 2 Anwendungen aufbauen zu können. Es setzt die Anwendung auf und stellt alles bereit, um mit Ihrer ersten ZF2 Anwendung beginnen zu können. Sie können Sie nach Ihren Wünschen erweitern oder Ihre eigene Skeleton Applikation darauf aufbauen.',
     'application_message_index_features'             => 'Einige grundlegene Zend Framework 2 Funktionen sind bereits aktiviert, damit Sie mit Ihrer ZF2 Applikation beginnen können.',
     'application_message_index_modules'              => 'Einige nützliche Zend Framework 2 Modules sind bereits für Sie installiert und aktiviert, um Ihnen den Einstieg zu erleichtern.',
-    'application_message_index_frontend'             => 'Einige Frontend Bibliotheken wurden über den Composer installiert und per symbolischen Link im public Ordner integriert.',
+    'application_message_index_frontend'             => 'Einige Frontend Bibliotheken wurden über den Composer installiert und und per AssetManager im public Ordner bereit gestellt.',
     'application_message_footer_skeleton'            => 'Dieses Applikationsgerüst ist eine erweiterte Version der originalen %sZendSkeletonApplication%s, die von ZF2rapid verwendet wird, um Zend Framework 2 Anwendungen schnell bauen zu können. Dieses Applikationsgerüst kann auch unabhängig von ZF2rapid verwendet werden.',
     'application_message_controller_cannot_dispatch' => 'Der angeforderte Controller war nicht in der Lage die Anfrage zu verarbeiten.',
     'application_message_controller_not_found'       => 'Der angeforderte Controller konnte keiner Controller Klasse zugeordnet werden.',

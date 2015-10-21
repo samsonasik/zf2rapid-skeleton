@@ -40,7 +40,7 @@ return [
     'application_message_index_about'                => 'The ZF2rapid skeleton application is a starting point to build your Zend Framework 2 applications. It sets the basic application up and provides all you need to start your first ZF2 application. You can extend it for your personal needs or build your own skeleton application on top of it.',
     'application_message_index_features'             => 'Some basic Zend Framework 2 features are activated to help you to get started with your ZF2 application.',
     'application_message_index_modules'              => 'Some useful Zend Framework 2 modules are installed and activated for your convenience.',
-    'application_message_index_frontend'             => 'Frontend libraries are installed by Composer and symlinked to the public folder of the application.',
+    'application_message_index_frontend'             => 'Frontend libraries are installed by Composer and provided to the public folder of the application by the AssetManager.',
     'application_message_footer_skeleton'            => 'This skeleton application is an extended version of the original %sZendSkeletonApplication%s which is used by ZF2rapid to build Zend Framework 2 applications rapidly. This skeleton application can also be used independently of ZF2rapid.',
     'application_message_controller_cannot_dispatch' => 'The requested controller was unable to dispatch the request.',
     'application_message_controller_not_found'       => 'The requested controller could not be mapped to an existing controller class.',

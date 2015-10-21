@@ -14,15 +14,15 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 14px;
-    border-top: 10px solid #0d7146;
+    border-top: 10px solid #005321;
 }
 
 a {
-    color: #0d7146;
+    color: #005321;
 }
 
 a:hover {
-    color: #04492c;
+    color: #67c32f;
 }
 
 /**
@@ -41,7 +41,7 @@ header .slogan {
     text-align: right;
     font-family: Verdana, Helvetica, Arial, Sans-Serif;
     font-size: 3em;
-    color: #0d7146;
+    color: #005321;
     vertical-align: bottom;
 }
 
@@ -57,7 +57,7 @@ header .slogan {
  * footer
  */
 footer {
-    background-color: #04492c;
+    background-color: #00a341;
     color: #ffffff;
     font-size: 12px;
     margin-top: 17px;
@@ -65,7 +65,7 @@ footer {
 }
 
 footer .footer-top {
-    background-color: #0d7146;
+    background-color: #005321;
     height: 10px;
     margin-bottom: 17px;
 }
@@ -94,10 +94,10 @@ footer ul li {
 }
 
 footer a {
-    color: #67c32f;
+    color: #005321;
 }
 
 footer a:hover {
-    color: #ffffff;
+    color: #67c32f;
 }
 
